@@ -3,7 +3,7 @@ import os  # Новая библиотека для работы с окруже
 
 # Вместо старой строки с TOKEN пишем так:
 # Берем токен из переменной окружения BOT_TOKEN
-TOKEN = os.getenv('8665340788:AAHwaaGROrWrwxfjdOcaVKP0j9hmR2hOkYM')
+TOKEN = os.getenv('BOT_TOKEN')
 
 # Важно: Добавим проверку, чтобы бот не запустился без токена
 if TOKEN is None:
